@@ -1,0 +1,356 @@
+{
+  "ms_offer" : {
+    "aliases" : { },
+    "mappings" : {
+      "offers" : {
+        "properties" : {
+          "accountId" : {
+            "type" : "long"
+          },
+          "activities" : {
+            "type" : "long"
+          },
+          "addDate" : {
+            "type" : "long"
+          },
+          "address" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "address_ext" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "agentId" : {
+            "type" : "long"
+          },
+          "agentName" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "air_conditioning" : {
+            "type" : "long"
+          },
+          "balcony" : {
+            "type" : "boolean"
+          },
+          "bathroom" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "bedding" : {
+            "type" : "long"
+          },
+          "can_smoke" : {
+            "type" : "long"
+          },
+          "changeDate" : {
+            "type" : "long"
+          },
+          "companyId" : {
+            "type" : "long"
+          },
+          "complete" : {
+            "type" : "long"
+          },
+          "condition" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "contactId" : {
+            "type" : "long"
+          },
+          "contactName" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "contactType" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "couchette" : {
+            "type" : "long"
+          },
+          "data" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "description" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "dishes" : {
+            "type" : "long"
+          },
+          "dishwasher" : {
+            "type" : "long"
+          },
+          "emails" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "finalRaiting" : {
+            "type" : "float"
+          },
+          "floor" : {
+            "type" : "long"
+          },
+          "houseType" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "id" : {
+            "type" : "long"
+          },
+          "importId" : {
+            "type" : "long"
+          },
+          "isMiddleman" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "kitchen_furniture" : {
+            "type" : "long"
+          },
+          "lastSeenDate" : {
+            "type" : "long"
+          },
+          "living_room_furniture" : {
+            "type" : "long"
+          },
+          "locRating" : {
+            "type" : "float"
+          },
+          "locality" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "location" : {
+            "type" : "geo_point"
+          },
+          "microwave_oven" : {
+            "type" : "long"
+          },
+          "mortgages" : {
+            "type" : "long"
+          },
+          "newBuilding" : {
+            "type" : "long"
+          },
+          "offerRaiting" : {
+            "type" : "float"
+          },
+          "offerTypeCode" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "orgId" : {
+            "type" : "long"
+          },
+          "orgName" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "ownerPrice" : {
+            "type" : "float"
+          },
+          "personId" : {
+            "type" : "long"
+          },
+          "phones" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "prepayment" : {
+            "type" : "long"
+          },
+          "refrigerator" : {
+            "type" : "long"
+          },
+          "roomScheme" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "roomsCount" : {
+            "type" : "long"
+          },
+          "spec" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "squareTotal" : {
+            "type" : "float"
+          },
+          "stageCode" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "stateCode" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "street" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "tag" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "tags" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "tv" : {
+            "type" : "long"
+          },
+          "typeCode" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "washer" : {
+            "type" : "long"
+          },
+          "with_animals" : {
+            "type" : "long"
+          },
+          "with_children" : {
+            "type" : "long"
+          }
+        }
+      }
+    },
+    "settings" : {
+      "index" : {
+        "creation_date" : "1553508383587",
+        "number_of_shards" : "5",
+        "number_of_replicas" : "1",
+        "uuid" : "2yy2XavvTy6ZaPJQpA51xQ",
+        "version" : {
+          "created" : "5050099"
+        },
+        "provided_name" : "ms_offer"
+      }
+    }
+  }
+}

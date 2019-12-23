@@ -1,0 +1,7 @@
+curl -X POST "localhost:9200/_search" -H 'Content-Type: application/json' -d'
+{
+  "query": {
+    "term" : { "user" : "Kimchy" }
+  }
+}
+'

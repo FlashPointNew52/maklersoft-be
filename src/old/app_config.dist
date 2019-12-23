@@ -1,0 +1,10 @@
+{
+    CORS_WHITELIST: "http://zavrus.com:4200, http://localhost:3000, http://xn--b1adacaabaehsdbwnyeec1a7dwa0toa.xn--p1ai, http://maklersoft.com, http://zavrus.com:3000",
+    KEY_LIST: "18l8lIwH9r0D3777OR3E0W1t4Pu1r8oY",
+    IMPORT_URL: "http://import.rplusmgmt.com:19050",
+    STATIC_FILE_LOCATION: "/home/raven/dev/public/",
+    FILE_STORAGE_PATH: "file_storage/",
+    FILE_STORAGE_URL: "http://jetty.rplusmgmt.com/file_storage/",
+    PHOTO_STORAGE_PATH: "photo_storage/",
+    PHOTO_STORAGE_URL: "http://jetty.rplusmgmt.com/photo_storage/"
+}

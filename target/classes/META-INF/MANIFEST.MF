@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Class-Path: lucene-spatial3d-6.2.0.jar netty-transport-4.1.5.Final.jar
+  jetty-servlet-9.3.6.v20151106.jar reindex-client-5.0.0.jar websocket
+ -server-9.3.6.v20151106.jar t-digest-3.0.jar websocket-common-9.3.6.v
+ 20151106.jar jetty-security-9.3.6.v20151106.jar netty-buffer-4.1.5.Fi
+ nal.jar httpclient-4.5.2.jar jetty-webapp-9.3.6.v20151106.jar cdi-api
+ -1.1.jar lucene-sandbox-6.2.0.jar lucene-spatial-extras-6.2.0.jar spa
+ rk-core-2.5.2.jar commons-logging-1.1.3.jar jsr250-api-1.0.jar jna-4.
+ 2.2.jar jackson-dataformat-smile-2.8.1.jar httpcore-4.4.5.jar hiberna
+ te-commons-annotations-5.0.1.Final.jar el-api-2.2.jar elasticsearch-5
+ .0.0.jar websocket-client-9.3.6.v20151106.jar joda-time-2.9.4.jar per
+ colator-client-5.0.0.jar commons-lang3-3.5.jar slf4j-simple-1.7.21.ja
+ r httpasyncclient-4.1.2.jar lucene-grouping-6.2.0.jar antlr-2.7.7.jar
+  javax.inject-1.jar lucene-queryparser-6.2.0.jar lucene-highlighter-6
+ .2.0.jar dom4j-1.6.1.jar transport-netty4-client-5.0.0.jar netty-3.10
+ .6.Final.jar joda-convert-1.2.jar jetty-server-9.3.6.v20151106.jar cl
+ assmate-1.3.0.jar lucene-queries-6.2.0.jar jopt-simple-5.0.2.jar luce
+ ne-backward-codecs-6.2.0.jar lucene-core-6.2.0.jar websocket-servlet-
+ 9.3.6.v20151106.jar lucene-memory-6.2.0.jar netty-common-4.1.5.Final.
+ jar snakeyaml-1.15.jar lucene-spatial-6.2.0.jar jandex-2.0.0.Final.ja
+ r lucene-analyzers-common-6.2.0.jar rest-5.0.0.jar log4j-core-2.7.jar
+  websocket-api-9.3.6.v20151106.jar javax.servlet-api-3.1.0.jar hppc-0
+ .7.1.jar compiler-0.9.3.jar HdrHistogram-2.1.6.jar hibernate-entityma
+ nager-5.2.2.Final.jar javassist-3.20.0-GA.jar lucene-misc-6.2.0.jar h
+ ibernate-core-5.2.2.Final.jar commons-codec-1.10.jar lucene-suggest-6
+ .2.0.jar jackson-core-2.8.1.jar lang-mustache-client-5.0.0.jar lucene
+ -join-6.2.0.jar transport-netty3-client-5.0.0.jar slf4j-api-1.7.13.ja
+ r jetty-util-9.3.6.v20151106.jar httpcore-nio-4.4.5.jar netty-handler
+ -4.1.5.Final.jar jboss-logging-3.3.0.Final.jar jetty-io-9.3.6.v201511
+ 06.jar hibernate-jpa-2.1-api-1.0.0.Final.jar gson-2.2.4.jar jboss-int
+ erceptors-api_1.1_spec-1.0.0.Beta1.jar netty-codec-4.1.5.Final.jar lo
+ g4j-api-2.7.jar securesm-1.1.jar netty-codec-http-4.1.5.Final.jar net
+ ty-resolver-4.1.5.Final.jar geronimo-jta_1.1_spec-1.1.1.jar jackson-d
+ ataformat-yaml-2.8.1.jar h2-1.4.193.jar jetty-http-9.3.6.v20151106.ja
+ r jetty-xml-9.3.6.v20151106.jar jackson-dataformat-cbor-2.8.1.jar tra
+ nsport-5.0.0.jar
+Main-Class: App
+

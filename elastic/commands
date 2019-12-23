@@ -1,0 +1,20 @@
+
+Удаление индекса
+curl -X DELETE "localhost:9200/ms_offer"
+
+Добавление индекса
+curl -X PUT "localhost:9200/ms_offer" -H 'Content-Type: application/json' -d'{
+    "settings" : {
+        "number_of_shards" : 5,
+        "number_of_replicas" : 2
+    },
+    "mappings" : {
+        "offers" :{
+            "properties" : {
+                "location" : {"type" : "geo_point"}
+            }
+        }
+    }
+}
+'
+

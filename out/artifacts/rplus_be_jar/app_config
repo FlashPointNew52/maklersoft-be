@@ -1,0 +1,9 @@
+{
+    CORS_ORIGIN: "http://localhost:3000",
+    STATIC_FILE_LOCATION: "/home/raven/dev/public/",
+    FILE_STORAGE_PATH: "file_storage/",
+    FILE_STORAGE_URL: "http://jetty.rplusmgmt.com/file_storage/",
+    PHOTO_STORAGE_PATH: "photo_storage/",
+    PHOTO_STORAGE_URL: "http://jetty.rplusmgmt.com/photo_storage/"
+}
+

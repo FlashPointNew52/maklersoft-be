@@ -1,0 +1,2172 @@
+{
+   "ms_offer_new": {
+      "mappings": {
+         "offers_list": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "address": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "agentName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "balcony": {
+                  "type": "boolean"
+               },
+               "bathroom": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "condition": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "contactName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "contactType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "description": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "emails": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "finalRaiting": {
+                  "type": "float"
+               },
+               "floor": {
+                  "type": "long"
+               },
+               "houseType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "isMiddleman": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "locRating": {
+                  "type": "float"
+               },
+               "locality": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "location": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "mortgage": {
+                  "type": "boolean"
+               },
+               "newBuilding": {
+                  "type": "boolean"
+               },
+               "offerRaiting": {
+                  "type": "float"
+               },
+               "offerTypeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "orgName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "ownerPrice": {
+                  "type": "float"
+               },
+               "personId": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "roomScheme": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "roomsCount": {
+                  "type": "long"
+               },
+               "squareTotal": {
+                  "type": "float"
+               },
+               "stageCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "street": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "typeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "ms_rate": {
+      "mappings": {
+         "rating": {
+            "properties": {
+               "agentId": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "objId": {
+                  "type": "long"
+               },
+               "objType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "rplus": {
+      "mappings": {
+         "rating": {
+            "properties": {
+               "agentId": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "objId": {
+                  "type": "long"
+               },
+               "objType": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "offer": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "address": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "address_ext": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "agentName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "bathroom": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "condition": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "contactId": {
+                  "type": "long"
+               },
+               "contactName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "contactType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "description": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "district": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "finalRaiting": {
+                  "type": "float"
+               },
+               "floor": {
+                  "type": "long"
+               },
+               "houseType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "lastSeenDate": {
+                  "type": "long"
+               },
+               "locRating": {
+                  "type": "float"
+               },
+               "locality": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "mortgages": {
+                  "type": "long"
+               },
+               "newBuilding": {
+                  "type": "long"
+               },
+               "offerRaiting": {
+                  "type": "float"
+               },
+               "offerTypeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "ownerPrice": {
+                  "type": "float"
+               },
+               "personId": {
+                  "type": "long"
+               },
+               "roomScheme": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "roomsCount": {
+                  "type": "long"
+               },
+               "spec": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "squareTotal": {
+                  "type": "float"
+               },
+               "stageCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "stateCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "title": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "typeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "request": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "agentName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "area": {
+                  "type": "geo_shape",
+                  "tree": "quadtree",
+                  "precision": "1.0m"
+               },
+               "assignDate": {
+                  "type": "long"
+               },
+               "budget": {
+                  "type": "float"
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "contactName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "description": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "offerTypeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "orgName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "personId": {
+                  "type": "long"
+               },
+               "personType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "request": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "stateCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "account": {
+            "properties": {
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "location": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "name": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "history": {
+            "properties": {
+               "addDate": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "objectId": {
+                  "type": "long"
+               },
+               "typeClass": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "comment": {
+            "properties": {
+               "add_date": {
+                  "type": "long"
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "corr_id": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "personId": {
+                  "type": "long"
+               },
+               "phone": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "user": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "login": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "organisation": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "name": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "person": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "emails": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "name": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "organisationId": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "rate": {
+                  "type": "float"
+               },
+               "stateCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "typeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "ms_main": {
+      "mappings": {
+         "user": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "department": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "emails": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "name": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "organisation": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "organisationId": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "position": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "rate": {
+                  "type": "float"
+               },
+               "specialization": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "stateCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         },
+         "person": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "agent": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "agentOrgId": {
+                  "type": "long"
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "emails": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "isMiddleman": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "name": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "organisation": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "organisationId": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "rate": {
+                  "type": "float"
+               },
+               "sourceCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "stateCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "typeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "userRef": {
+                  "type": "long"
+               }
+            }
+         },
+         "organisation": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "agent": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "contactId": {
+                  "type": "long"
+               },
+               "contactName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "emails": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "goverType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "isAccount": {
+                  "type": "boolean"
+               },
+               "isMiddleman": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "location": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "mainOffice": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "mainOfficeId": {
+                  "type": "long"
+               },
+               "main_office": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "main_officeId": {
+                  "type": "long"
+               },
+               "name": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "orgRef": {
+                  "type": "long"
+               },
+               "ourCompany": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "stateCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "typeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "ms_comment": {
+      "mappings": {
+         "comments": {
+            "properties": {
+               "add_date": {
+                  "type": "long"
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "objId": {
+                  "type": "long"
+               },
+               "objType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "twitter": {
+      "mappings": {}
+   },
+   "maklersoft_account": {
+      "mappings": {
+         "account": {
+            "properties": {
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "location": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "name": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "ms-request": {
+      "mappings": {
+         "requests": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "agentName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "cash": {
+                  "type": "boolean"
+               },
+               "certificate": {
+                  "type": "boolean"
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "contactName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "contactType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "costInfo": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "description": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "emails": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "encumbrance": {
+                  "type": "boolean"
+               },
+               "id": {
+                  "type": "long"
+               },
+               "isMiddleman": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "maternalCapital": {
+                  "type": "boolean"
+               },
+               "mortgage": {
+                  "type": "boolean"
+               },
+               "newBuilding": {
+                  "type": "boolean"
+               },
+               "offerTypeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "orgName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "personId": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "stageCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "long"
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "ms-request-test": {
+      "mappings": {
+         "requests": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "agentName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "cash": {
+                  "type": "boolean"
+               },
+               "certificate": {
+                  "type": "boolean"
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "companyId": {
+                  "type": "long"
+               },
+               "contactName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "contactType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "costInfo": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "description": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "emails": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "encumbrance": {
+                  "type": "boolean"
+               },
+               "id": {
+                  "type": "long"
+               },
+               "isMiddleman": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "maternalCapital": {
+                  "type": "boolean"
+               },
+               "mortgage": {
+                  "type": "boolean"
+               },
+               "newBuilding": {
+                  "type": "boolean"
+               },
+               "offerTypeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "orgId": {
+                  "type": "long"
+               },
+               "orgName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "personId": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "request": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "stageCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "long"
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+
+   "ms_offer": {
+      "mappings": {
+         "offers": {
+            "properties": {
+               "accountId": {
+                  "type": "long"
+               },
+               "addDate": {
+                  "type": "long"
+               },
+               "address": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "agentId": {
+                  "type": "long"
+               },
+               "agentName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "air_conditioning": {
+                  "type": "boolean"
+               },
+               "balcony": {
+                  "type": "boolean"
+               },
+               "bathroom": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "bedding": {
+                  "type": "boolean"
+               },
+               "buildingClass": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "changeDate": {
+                  "type": "long"
+               },
+               "companyId": {
+                  "type": "long"
+               },
+               "complete": {
+                  "type": "boolean"
+               },
+               "condition": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "contactName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "contactType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "couchette": {
+                  "type": "boolean"
+               },
+               "data": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "description": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "dishes": {
+                  "type": "boolean"
+               },
+               "dishwasher": {
+                  "type": "boolean"
+               },
+               "emails": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "finalRaiting": {
+                  "type": "float"
+               },
+               "floor": {
+                  "type": "long"
+               },
+               "houseType": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "id": {
+                  "type": "long"
+               },
+               "importId": {
+                  "type": "long"
+               },
+               "isMiddleman": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "kitchen_furniture": {
+                  "type": "boolean"
+               },
+               "lastSeenDate": {
+                  "type": "long"
+               },
+               "living_room_furniture": {
+                  "type": "boolean"
+               },
+               "locRating": {
+                  "type": "float"
+               },
+               "locality": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "location": {
+                  "type": "geo_point"
+               },
+               "microwave_oven": {
+                  "type": "boolean"
+               },
+               "mortgage": {
+                  "type": "boolean"
+               },
+               "newBuilding": {
+                  "type": "boolean"
+               },
+               "offerRaiting": {
+                  "type": "float"
+               },
+               "offerTypeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "orgId": {
+                  "type": "long"
+               },
+               "orgName": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "ownerPrice": {
+                  "type": "float"
+               },
+               "personId": {
+                  "type": "long"
+               },
+               "phones": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "prepayment": {
+                  "type": "boolean"
+               },
+               "refrigerator": {
+                  "type": "boolean"
+               },
+               "roomScheme": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "roomsCount": {
+                  "type": "long"
+               },
+               "squareTotal": {
+                  "type": "float"
+               },
+               "stageCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "street": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tag": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tags": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "tv": {
+                  "type": "boolean"
+               },
+               "typeCode": {
+                  "type": "text",
+                  "fields": {
+                     "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                     }
+                  }
+               },
+               "washer": {
+                  "type": "boolean"
+               },
+               "with_animals": {
+                  "type": "boolean"
+               },
+               "with_children": {
+                  "type": "boolean"
+               }
+            }
+         }
+      }
+   }
+}

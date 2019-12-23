@@ -1,0 +1,129 @@
+curl -XDELETE 'localhost:9200/rplus'
+
+curl -XPUT 'localhost:9200/rplus' -H 'Content-Type: application/json' -d'
+{
+    "settings": {
+        "index" : {
+            "analysis" : {
+                "filter" : {
+                    "synonym" : {
+                        "type" : "synonym",
+                        "synonyms_path" : "synonym",
+                        "tokenizer" : "whitespace"
+                    }
+                },
+                "analyzer" : {
+                    "synonym" : {
+                        "tokenizer" : "standard",
+                        "filter" : ["synonym"]
+                    }
+                }
+            }
+        }
+    },
+    "mappings": {
+        "offer": {
+            "properties": {
+                "location": {
+                    "type": "geo_point"
+                },
+
+                "tags": {
+                    "type": "text",
+                    "analyzer": "synonym",
+                    "fields": {
+                       "keyword": {
+                          "type": "keyword",
+                          "ignore_above": 256
+                       }
+                    }
+                },
+                "locality": {
+                    "type": "text",
+                    "analyzer": "synonym",
+                    "fielddata": true,
+                    "fields": {
+                       "keyword": {
+                          "type": "keyword",
+                          "ignore_above": 256
+                       }
+                    }
+                },
+                "address": {
+                    "type": "text",
+                    "fielddata": true,
+                    "fields": {
+                       "keyword": {
+                          "type": "keyword",
+                          "ignore_above": 256
+                       }
+                    }
+                },
+                "address_ext": {
+                    "type": "text",
+                    "analyzer": "synonym",
+                    "fields": {
+                       "keyword": {
+                          "type": "keyword",
+                          "ignore_above": 256
+                       }
+                    }
+                },
+                "district": {
+                    "type": "text",
+                    "analyzer": "synonym",
+                    "fielddata": true,
+                    "fields": {
+                       "keyword": {
+                          "type": "keyword",
+                          "ignore_above": 256
+                       }
+                    }
+                },
+                "poi": {
+                    "type": "text",
+                    "analyzer": "synonym",
+                    "fielddata": true,
+                    "fields": {
+                       "keyword": {
+                          "type": "keyword",
+                          "ignore_above": 256
+                       }
+                    }
+                },
+
+                "agentName": {
+                    "type": "keyword"
+                },
+                "contactName": {
+                    "type": "keyword"
+                },
+                "typeCode": {
+                    "type": "keyword"
+                },
+                "houseType": {
+                    "type": "keyword"
+                },
+                "apScheme": {
+                    "type": "keyword"
+                },
+                "roomScheme": {
+                    "type": "keyword"
+                },
+                "condition": {
+                    "type": "keyword"
+                },
+                "balcony": {
+                    "type": "keyword"
+                },
+                "bathroom": {
+                    "type": "keyword"
+                },
+                "addDate": {
+                    "type": "date"
+                }
+            }
+        }
+    }
+}
+'

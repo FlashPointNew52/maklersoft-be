@@ -1,0 +1,21 @@
+{
+    CORS_WHITELIST: "http://dev.zavrus.com,
+        http://zavrus.com:4200,
+        http://localhost:3000,
+        http://xn--b1adacaabaehsdbwnyeec1a7dwa0toa.xn--p1ai,
+        http://maklersoft.com,
+        http://zavrus.com:3000,
+        http://maklersoft.com:8080,
+        http://dev.makleronline.net:8089,
+        http://dev.makleronline.net:4000,
+        http://makleronline.net:8081,
+    ",
+    KEY_LIST: "18l8lIwH9r0D3777OR3E0W1t4Pu1r8oY",
+    IMPORT_URL: "http://import.maklersoft.com",
+    STATIC_FILE_LOCATION: "/home/raven/dev/public/",
+    FILE_STORAGE_PATH: "file_storage/",
+    FILE_STORAGE_URL: "http://jetty.rplusmgmt.com/file_storage/",
+    PHOTO_STORAGE_PATH: "photo_storage/",
+    PHOTO_STORAGE_URL: "http://jetty.rplusmgmt.com/photo_storage/",
+    AUTORISATION_WHITELIST: "makleronline.com&289824Prim"
+}
